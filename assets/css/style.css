@@ -1,0 +1,17 @@
+/* ========================= START OF FULL SITE STYLES ========================= */
+
+html {
+  font-size:100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0em;
+}
+
+header, nav, section {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+/* ========================== END OF FULL SITE STYLES ========================== */
