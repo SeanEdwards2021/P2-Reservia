@@ -61,12 +61,11 @@ nav {
   padding: 45px;
   flex-grow: 1;
 }
-
 /* ========================== END OF NAVBAR SECTION ========================== */
 
 /* ========================= START OF INTRODUCTION, SEARCH, FILTERS AND INFO SECTION ========================= */
 
-/* Intro */
+/* Introduction */
 h2 {
   font-weight: bold;
 }
@@ -87,11 +86,11 @@ h2 {
 }
 
 .marker-icon {
-background-color: #F2F2F2;
-border-radius: 16px 0 0 16px;
-padding: 14px;
-text-align: center;
-width: 18px;
+  background-color: #F2F2F2;
+  border-radius: 16px 0 0 16px;
+  padding: 14px;
+  text-align: center;
+  width: 18px;
 }
 
 .search-box {
@@ -108,19 +107,19 @@ width: 18px;
 }
 
 .search-button {
-background-color: #0065fc;
-border-left: none;
-border-radius: 0 16px 16px 0;
-color: #F2F2F2;
-cursor: pointer;
-font-weight: 700;
-font-size: 16px;
-padding: 14px 2px 2px 14px;
-width: px;
+  background-color: #0065fc;
+  border-left: none;
+  border-radius: 0 16px 16px 0;
+  color: #F2F2F2;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 2px 2px 14px;
+  width: 80px;
 }
 
 .search-icon {
-color: #0065fc;
+  color: #0065fc;
 }
 
 /* Filters */
@@ -187,5 +186,4 @@ color: #0065fc;
   color: gray;
   font-size: 14px;
 }
-
 /* ========================== END OF INTRODUCTION, SEARCH, FILTERS AND INFO SECTION ========================== */
