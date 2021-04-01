@@ -287,10 +287,6 @@ h2 {
   color: black;
 }
 
-#show-more-link:visited {
-  color: initial;
-}
-
 /* Most Popular */
 .mostpopular {
   background-color: #F2F2F2;
@@ -341,3 +337,133 @@ h2 {
   margin-bottom: -16px;
 }
 /* ========================== END OF ACCOMMODATIONS SECTION ========================== */
+
+/* ========================= START OF ACTIVITIES SECTION ========================= */
+
+.activities-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+.column-container-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column-container-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activities-link {
+  text-decoration: none;
+}
+
+#Old-Port {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 16px;
+  box-shadow: 0 0 2px 2px #a3a3a3;
+}
+#Pomegues-Fort {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  border-radius: 16px;
+  box-shadow: 0 0 2px 2px #a3a3a3;
+}
+#Friolus-Island {
+  background-color: white;
+  width: 400px;
+  height: 160px;
+  border-radius: 16px;
+  box-shadow: 0 0 2px 2px #a3a3a3;
+}
+#Calanques-National-Park {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 16px;
+  box-shadow: 0 0 2px 2px #a3a3a3;
+}
+#Notre-Dame-de-la-Garde {
+  background-color: white;
+  width: 400px;
+  height: 230px;
+  border-radius: 16px;
+  box-shadow: 0 0 2px 2px #a3a3a3;
+}
+#Longchamp-Park {
+  background-color: white;
+  width: 400px;
+  height: 230px;
+  border-radius: 16px;
+  box-shadow: 0 0 2px 2px #a3a3a3;
+}
+
+#Old-Port:hover, #Pomegues-Fort:hover, #Friolus-Island:hover,
+#Calanques-National-Park:hover, #Notre-Dame-de-la-Garde:hover,
+#Longchamp-Park:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+  0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.oldport-images {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.pomegues-images {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.friolus-images {
+  width: 400px;
+  height: 110px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.calanques-images {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.notredame-images {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.longchamp-images {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.activity-name {
+  color: black;
+  font-weight: 700;
+  padding-left: 16px;
+  margin-top: 12px;
+}
+/* ========================== END OF ACTIVITIES SECTION ========================== */
