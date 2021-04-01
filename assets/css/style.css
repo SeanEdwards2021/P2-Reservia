@@ -446,7 +446,7 @@ h2 {
 }
 .notredame-images {
   width: 400px;
-  height: 350px;
+  height: 180px;
   object-fit: cover;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -454,7 +454,7 @@ h2 {
 
 .longchamp-images {
   width: 400px;
-  height: 350px;
+  height: 180px;
   object-fit: cover;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
