@@ -466,5 +466,37 @@ h2 {
   padding-left: 16px;
   margin-top: 12px;
 }
-
 /* ========================== END OF ACTIVITIES SECTION ========================== */
+
+/* ========================= START OF FOOTER SECTION ========================= */
+
+footer {
+  background-color: #F2F2F2;
+  position: relative;
+  margin: 0;
+  height: 160px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1050px;
+  padding-left: 50px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.p-footer {
+  margin-bottom: -14px;
+}
+/* ========================== END OF FOOTER SECTION ========================== */
