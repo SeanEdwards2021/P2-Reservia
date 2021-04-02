@@ -366,9 +366,13 @@ h2 {
   text-decoration: none;
 }
 
+.column-container-one, .column-container-two {
+  width: 22%;
+}
+
 #Old-Port {
   background-color: white;
-  width: 400px;
+  width: 22%;
   height: 500px;
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
@@ -376,23 +380,23 @@ h2 {
 
 #Pomegues-Fort {
   background-color: white;
-  width: 400px;
-  height: 300px;
+  width: 100%;
+  height: 62%;
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
 }
 
 #Friolus-Island {
   background-color: white;
-  width: 400px;
-  height: 160px;
+  width: 100%;
+  height: 33%;
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
 }
 
 #Calanques-National-Park {
   background-color: white;
-  width: 400px;
+  width: 22%;
   height: 500px;
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
@@ -400,16 +404,16 @@ h2 {
 
 #Notre-Dame-de-la-Garde {
   background-color: white;
-  width: 400px;
-  height: 230px;
+  width: 100%;
+  height: 47%;
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
 }
 
 #Longchamp-Park {
   background-color: white;
-  width: 400px;
-  height: 230px;
+  width: 100%;
+  height: 47%;
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
 }
@@ -422,7 +426,7 @@ h2 {
 }
 
 .oldport-images {
-  width: 400px;
+  width: 100%;
   height: 450px;
   object-fit: cover;
   border-top-left-radius: 16px;
@@ -430,7 +434,7 @@ h2 {
 }
 
 .pomegues-images {
-  width: 400px;
+  width: 100%;
   height: 250px;
   object-fit: cover;
   border-top-left-radius: 16px;
@@ -438,7 +442,7 @@ h2 {
 }
 
 .friolus-images {
-  width: 400px;
+  width: 100%;
   height: 110px;
   object-fit: cover;
   border-top-left-radius: 16px;
@@ -446,7 +450,7 @@ h2 {
 }
 
 .calanques-images {
-  width: 400px;
+  width: 100%;
   height: 450px;
   object-fit: cover;
   border-top-left-radius: 16px;
@@ -454,7 +458,7 @@ h2 {
 }
 
 .notredame-images {
-  width: 400px;
+  width: 100%;
   height: 180px;
   object-fit: cover;
   border-top-left-radius: 16px;
@@ -462,7 +466,7 @@ h2 {
 }
 
 .longchamp-images {
-  width: 400px;
+  width: 100%;
   height: 180px;
   object-fit: cover;
   border-top-left-radius: 16px;
