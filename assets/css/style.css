@@ -85,6 +85,10 @@ h2 {
   margin-bottom: 25px;
 }
 
+.search-container input:focus {
+  outline: none;
+}
+
 .marker-icon {
   background-color: #F2F2F2;
   border-radius: 16px 0 0 16px;
@@ -160,7 +164,6 @@ h2 {
 .filter:hover {
   background-color: #1e90ff;
   color: #fff;
-  transform: scale(1.15);
 }
 
 /* Info */
