@@ -163,7 +163,7 @@ h2 {
   transform: scale(1.15);
 }
 
-/* info */
+/* Info */
 .info-container {
   display: flex;
   flex-direction: row;
@@ -275,6 +275,7 @@ h2 {
   position: relative;
   bottom: 9px;
 }
+
 .greystar {
   color: #e0dfdf;
   font-size: 11px;
@@ -325,6 +326,7 @@ h2 {
   display: flex;
   flex-direction: row;
 }
+
 .popular-images {
   width: 180px;
   height: 130px;
@@ -371,6 +373,7 @@ h2 {
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
 }
+
 #Pomegues-Fort {
   background-color: white;
   width: 400px;
@@ -378,6 +381,7 @@ h2 {
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
 }
+
 #Friolus-Island {
   background-color: white;
   width: 400px;
@@ -385,6 +389,7 @@ h2 {
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
 }
+
 #Calanques-National-Park {
   background-color: white;
   width: 400px;
@@ -392,6 +397,7 @@ h2 {
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
 }
+
 #Notre-Dame-de-la-Garde {
   background-color: white;
   width: 400px;
@@ -399,6 +405,7 @@ h2 {
   border-radius: 16px;
   box-shadow: 0 0 2px 2px #a3a3a3;
 }
+
 #Longchamp-Park {
   background-color: white;
   width: 400px;
@@ -421,6 +428,7 @@ h2 {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
+
 .pomegues-images {
   width: 400px;
   height: 250px;
@@ -444,6 +452,7 @@ h2 {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
+
 .notredame-images {
   width: 400px;
   height: 180px;
