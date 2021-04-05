@@ -526,7 +526,7 @@ footer {
 
   body {
     width: 100%;
-    font-size: 1rem;
+    font-size: 16px ;
   }
 
   header, nav {
@@ -558,27 +558,27 @@ footer {
   #accommodations-nav {
     flex-grow: 1;
     text-align: center;
-    padding: 1.8em 0 1em 1.155em;
+    padding: 30px 0 16px 20px;
   }
 
   #activities-nav {
     flex-grow: 2;
     text-align: center;
-    padding: 1.8em 1.155em 1em 0;
+    padding: 30px 20px 16px 0;
   }
 
   .nav-link {
     border-bottom: #F2F2F2;
     border-style: none none solid none;
-    border-width: 0.18em;
+    border-width: 2px;
     color: black;
   }
 
   .nav-link:hover {
     border-bottom: #0065FC;
     border-style: none none solid none;
-    border-width: 0.18em;
-    padding: 2.6em;
+    border-width: 2px;
+    padding: 40px;
     color: #0065FC;
   }
 
@@ -590,8 +590,8 @@ footer {
 
   #sign-up {
     order: 2;
-    font-size: 1em;
-    padding: 1em;
+    font-size: 16px;
+    padding: 16px;
     text-align: right;
   }
   /* ================ END OF NAVBAR SECTION ================ */
@@ -604,32 +604,32 @@ footer {
     margin-bottom: 30px;
     font-weight: 300;
     color: grey;
-    font-size: 0.8em;
+    font-size: 14px;
   }
   
   /* Search Bar */
   .search-container {
     justify-content: center;
     width: 80%;
-    margin: 1.8em auto;
+    margin: 40px auto;
   }
 
   .search-box {
     width: 70%;
-    font-size: 1.08em;
-    padding: 0.8em;
+    font-size: 16px;
+    padding: 14px;
   }
 
   .marker-icon {
-    padding: 1em 0.8em;
-    width: 1.8em;
+    padding: 16px 14px;
+    width: 40px;
   }
 
   .search-button {
-    border-radius: 0.8em;
+    border-radius: 14px;
     color: transparent;
-    padding: 0 0 0.2em 1em;
-    width: 2em;
+    padding: 0 0 2px 16px;
+    width: 32px;
     text-align: initial;
   }
 
@@ -678,7 +678,7 @@ footer {
   }
 
   .popular-hotel {
-    margin-bottom: 1.5em;
+    margin-bottom: 24px;
   }
 
   /* Main Accommodations */
@@ -689,12 +689,12 @@ footer {
     height: auto;
     width: 95%;
     padding: 0;
-    margin-top: 1em;
-    margin-bottom: 0.4em;
+    margin-top: 16px;
+    margin-bottom: 4px;
   }
 
   .section-title {
-    margin: 1em auto;
+    margin: 16px auto;
     width: 85%;
   }
 
@@ -706,7 +706,7 @@ footer {
   }
 
   .hotel {
-    margin-bottom: 1.5em;
+    margin-bottom: 24px;
     width: 100%;
   }
 
@@ -731,19 +731,19 @@ footer {
   #Old-Port, #Pomegues-Fort, #Friolus-Island,
   #Calanques-National-Park, #Notre-Dame-de-la-Garde,
   #Longchamp-Park {
-    margin-bottom: 1.5em;
+    margin-bottom: 24px;
   }
 
   #Old-Port, #Calanques-National-Park {
     width: 100%;
-    height: 11em;
-    border-radius: 1em;
+    height: 180pxs;
+    border-radius: 16px;
   }
 
   .oldport-images, .pomegues-images, .calanques-images,
   .notredame-images, .friolus-images, .longchamp-images {
     width: 100%;
-    height: 8em;
+    height: 130px;
   }
   /* ================ END OF ACTIVITIES SECTION ================ */
 
@@ -752,7 +752,7 @@ footer {
   footer {
     height: auto;
     width: 100%;
-    margin: 1em 0 0 0;
+    margin: 16px 0 0 0;
   }
 
   .footer-container {
@@ -762,11 +762,11 @@ footer {
   }
 
   .p-footer {
-    margin-bottom: -0.5em;
+    margin-bottom: -8px;
   }
 
   .about, .our-accommodations, .assistance {
-    margin-bottom: 1em;
+    margin-bottom: 16px;
   }
   /* ================ END OF FOOTER SECTION ================ */
   
@@ -779,7 +779,7 @@ footer {
   /* =============== START OF FULL SITE STYLES =============== */
   body {
     width: 100%;
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   header, nav {
@@ -811,27 +811,27 @@ footer {
   #accommodations-nav {
     flex-grow: 1;
     text-align: center;
-    padding: 1.8em 0 1em 1.155em;
+    padding: 30px 0 16px 20px;
   }
 
   #activities-nav {
     flex-grow: 2;
     text-align: center;
-    padding: 1.8em 1.155em 1em 0;
+    padding: 30px 20px 16px 0;
   }
 
   .nav-link {
     border-bottom: #F2F2F2;
     border-style: none none solid none;
-    border-width: 0.18em;
+    border-width: 2px;
     color: black;
   }
 
   .nav-link:hover {
     border-bottom: #0065FC;
     border-style: none none solid none;
-    border-width: 0.18em;
-    padding: 2.6em;
+    border-width: 2px;
+    padding: 40px;
     color: #0065FC;
   }
 
@@ -843,8 +843,8 @@ footer {
 
   #sign-up {
     order: 2;
-    font-size: 1em;
-    padding: 1em;
+    font-size: 16px;
+    padding: 16px;
     text-align: right;
     margin-right: 7.5%;
   }
@@ -858,7 +858,7 @@ footer {
   margin-bottom: 30px;
   font-weight: 300;
   color: grey;
-  font-size: 0.8em;
+  font-size: 14px;
   }
 
   /* Search Bar */
@@ -868,20 +868,20 @@ footer {
 
   .search-box {
     width: 70%;
-    font-size: 1.08em;
-    padding: 0.8em;
+    font-size: 16px;
+    padding: 14px;
   }
 
   .marker-icon {
-    padding: 1em 0.8em;
-    width: 1.8em;
+    padding: 16px 14px;
+    width: 30px;
   }
 
   .search-button {
-    border-radius: 0.8em;
+    border-radius: 14px;
     color: transparent;
-    padding: 0 0 0.2em 1em;
-    width: 2em;
+    padding: 0 0 2px 16px;
+    width: 32px;
     text-align: initial;
   }
 
@@ -931,7 +931,7 @@ footer {
 
   .popular-hotel {
     width: 100%;
-    margin-bottom: 1.5em;
+    margin-bottom: 24px;
   }
 
   /* Accommodations */
@@ -942,12 +942,12 @@ footer {
     height: auto;
     width: 100%;
     padding: 0;
-    margin-top: 1em;
-    margin-bottom: 0.4em;
+    margin-top: 16px;
+    margin-bottom: 2px;
   }
 
   .section-title {
-    margin: 2em auto;
+    margin: 16px auto;
     width: 65%;
   }
 
@@ -959,7 +959,7 @@ footer {
   }
 
   .hotel {
-    margin-bottom: 1.5em;
+    margin-bottom: 24px;
     width: 100%;
   }
 
@@ -983,19 +983,19 @@ footer {
   #Old-Port, #Pomegues-Fort, #Friolus-Island,
   #Calanques-National-Park, #Notre-Dame-de-la-Garde,
   #Longchamp-Park {
-    margin-bottom: 1.5em;
+    margin-bottom: 24px;
   }
 
   #Old-Port, #Calanques-National-Park {
     width: 100%;
-    height: 11em;
-    border-radius: 1em;
+    height: 180px;
+    border-radius: 16px;
   }
 
   .oldport-images, .pomegues-images, .calanques-images,
   .notredame-images, .friolus-images, .longchamp-images {
     width: 100%;
-    height: 8em;
+    height: 130px;
   }
   /* ================ END OF ACTIVITIES SECTION ================ */
 
@@ -1004,7 +1004,7 @@ footer {
   footer {
     height: auto;
     width: 100%;
-    margin: 1em 0 0 0;
+    margin: 16px 0 0 0;
   }
 
   .footer-container {
@@ -1013,12 +1013,12 @@ footer {
   }
 
   .p-footer {
-    margin-bottom: -0.5em;
+    margin-bottom: -8px;
   }
 
   .about, .our-accommodations, .assistance {
-    margin-bottom: 1em;
-    margin-right: 0.8em;
+    margin-bottom: 16px;
+    margin-right: 14px;
   }
 }
 /* ================ END OF FOOTER SECTION ================ */
@@ -1029,7 +1029,7 @@ footer {
   /* =============== START OF FULL SITE STYLES =============== */
   body {
     width: 100%;
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   header, nav {
@@ -1082,7 +1082,7 @@ footer {
   .popular-container {
     width: 90%;
     flex-direction: row;
-    height: 17em;
+    height: 270px;
     margin: 0 auto;
   }
 
@@ -1094,10 +1094,10 @@ footer {
 
   .popular-images {
     width: 96%;
-    height: 7em;
+    height: 110px;
     object-position: 50% 60%;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     border-bottom-left-radius: 0;
   }
 
@@ -1107,11 +1107,11 @@ footer {
     height: auto;
     width: 96%;
     padding: 0;
-    margin: 1em auto;
+    margin: 16px auto;
   }
 
   .section-title {
-    margin: 1em auto;
+    margin: 16px auto;
     width: 90%;
   }
 
@@ -1157,15 +1157,15 @@ footer {
   #Calanques-National-Park, #Notre-Dame-de-la-Garde,
   #Longchamp-Park {
     width: 45%;
-    height: 11em;
-    border-radius: 1em;
-    margin-bottom: 1.5em;
+    height: 175px;
+    border-radius: 16px;
+    margin-bottom: 24px;
   }
 
   .oldport-images, .pomegues-images, .calanques-images,
   .notredame-images, .friolus-images, .longchamp-images {
     width: 100%;
-    height: 8em;
+    height: 130px;
   }
   /* ================ END OF ACTIVITIES SECTION ================ */
 
@@ -1174,7 +1174,7 @@ footer {
   footer {
     height: auto;
     width: 100%;
-    margin: 1em 0 0 0;
+    margin: 16px 0 0 0;
   }
 
   .footer-container {
@@ -1183,7 +1183,7 @@ footer {
   }
 
   .p-footer {
-    margin-bottom: -0.5em;
+    margin-bottom: -8px;
   }
 
   .about, .our-accommodations, .assistance {
