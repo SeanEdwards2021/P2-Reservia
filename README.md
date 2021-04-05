@@ -1,5 +1,5 @@
 ![reservia Logo](/assets/images/Logo/Reservia_Logo.svg)
-
+![Reservia Mockup Images](assets/images/README/responsive.png)
 # Open Classrooms - P2 - Reservia
 *Transform mockup into responsive one-page HTML/CSS static template*
 
