@@ -5,7 +5,14 @@
 
 [My web page hosted online on GitHub Pages](https://seanedwards2021.github.io/P2-Reservia/)
 
-## Technologies i used for this project
+## Technologies I used for this project
 - HTML5 Semantic Tags
 - CSS3 Flexbox
 - CSS3 Custom Media Queries
+
+## Credits for sites I used during this project
+- HTML5 Semantic Tags
+  - https://www.w3schools.com/html/html5_semantic_elements.asp
+- CSS3 Flexbox
+  - https://www.youtube.com/watch?v=JJSoEo8JSnc
+  - https://codepen.io/sambible/pen/eZxQyP
