@@ -1057,9 +1057,13 @@ footer {
 
   /* Filters*/
   .filter-container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    width: 80%;
+    width: 90%;
+  }
+
+  .filter {
+    font-size: 12px
   }
 
   /* Info */
