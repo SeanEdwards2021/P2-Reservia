@@ -134,7 +134,6 @@ h2 {
   justify-content: space-between;
   width: 60%;
   margin-bottom: 20px;
-
 }
 
 .filter-text {
@@ -170,7 +169,7 @@ h2 {
 .info-container {
   display: flex;
   flex-direction: row;
-  width: 400px;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -516,3 +515,681 @@ footer {
   margin-bottom: -14px;
 }
 /* ========================== END OF FOOTER SECTION ========================== */
+
+/* ========================= START OF MEDIA QUERIES SECTION ========================= */
+
+/* Mobile Devices */
+
+@media all and (max-width: 480px) {
+
+  /* =============== START OF FULL SITE STYLES =============== */
+
+  body {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  header, nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  section {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .intro, .search-container, .filter-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* ================ END OF FULL SITE STYLES ================ */
+
+  /* =============== START OF NAVBAR SECTION =============== */
+  
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    order: 3;
+    margin: 0;
+    width: 90%;
+  }
+
+  #accommodations-nav {
+    flex-grow: 1;
+    text-align: center;
+    padding: 1.8em 0 1em 1.155em;
+  }
+
+  #activities-nav {
+    flex-grow: 2;
+    text-align: center;
+    padding: 1.8em 1.155em 1em 0;
+  }
+
+  .nav-link {
+    border-bottom: #F2F2F2;
+    border-style: none none solid none;
+    border-width: 0.18em;
+    color: black;
+  }
+
+  .nav-link:hover {
+    border-bottom: #0065FC;
+    border-style: none none solid none;
+    border-width: 0.18em;
+    padding: 2.6em;
+    color: #0065FC;
+  }
+
+  .logo {
+    order: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #sign-up {
+    order: 2;
+    font-size: 1em;
+    padding: 1em;
+    text-align: right;
+  }
+  /* ================ END OF NAVBAR SECTION ================ */
+
+  /* =============== START OF INTRODUCTION, SEARCH, FILTERS AND INFO SECTION =============== */
+
+  /* Introduction */
+  #sub-intro {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: grey;
+    font-size: 0.8em;
+  }
+  
+  /* Search Bar */
+  .search-container {
+    justify-content: center;
+    width: 80%;
+    margin: 1.8em auto;
+  }
+
+  .search-box {
+    width: 70%;
+    font-size: 1.08em;
+    padding: 0.8em;
+  }
+
+  .marker-icon {
+    padding: 1em 0.8em;
+    width: 1.8em;
+  }
+
+  .search-button {
+    border-radius: 0.8em;
+    color: transparent;
+    padding: 0 0 0.2em 1em;
+    width: 2em;
+    text-align: initial;
+  }
+
+  .search-icon {
+    color: white;
+  }
+
+  /* Filters*/
+  .filter-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Info */
+  .info-container {
+    padding-left: 5%;
+    width: 95%;
+  }
+  /* ================ END OF INTRODUCTION, SEARCH, FILTERS AND INFO SECTION ================ */
+
+  /* =============== START OF ACCOMMODATIONS SECTION =============== */
+
+  .article-one-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Most Popular */
+  .mostpopular {
+    order: 1;
+    border-radius: 0;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .chart {
+    float: right;
+    padding-right: 10px;
+  }
+
+  .popular-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 40px
+  }
+
+  .popular-hotel {
+    margin-bottom: 1.5em;
+  }
+
+  /* Main Accommodations */
+  .accommodations {
+    order: 2;
+    background-color: transparent;
+    border-radius: 0;
+    height: auto;
+    width: 95%;
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+  }
+
+  .section-title {
+    margin: 1em auto;
+    width: 85%;
+  }
+
+  .hotel-container {
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .hotel {
+    margin-bottom: 1.5em;
+    width: 100%;
+  }
+
+  #show-more {
+    padding-left: 7.5%
+  }
+  /* ================ END OF ACCOMMODATIONS SECTION ================ */
+
+  /* =============== START OF ACTIVITIES SECTION =============== */
+
+  .activities-container {
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    padding-right: 20px;
+  }
+
+  .column-container-one, .column-container-two {
+    width: 100%;
+  }
+
+  #Old-Port, #Pomegues-Fort, #Friolus-Island,
+  #Calanques-National-Park, #Notre-Dame-de-la-Garde,
+  #Longchamp-Park {
+    margin-bottom: 1.5em;
+  }
+
+  #Old-Port, #Calanques-National-Park {
+    width: 100%;
+    height: 11em;
+    border-radius: 1em;
+  }
+
+  .oldport-images, .pomegues-images, .calanques-images,
+  .notredame-images, .friolus-images, .longchamp-images {
+    width: 100%;
+    height: 8em;
+  }
+  /* ================ END OF ACTIVITIES SECTION ================ */
+
+  /* =============== START OF FOOTER SECTION =============== */
+
+  footer {
+    height: auto;
+    width: 100%;
+    margin: 1em 0 0 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    width: 90%;
+    padding-left: 7.5%;
+  }
+
+  .p-footer {
+    margin-bottom: -0.5em;
+  }
+
+  .about, .our-accommodations, .assistance {
+    margin-bottom: 1em;
+  }
+  /* ================ END OF FOOTER SECTION ================ */
+  
+}
+
+/* Large screen Mobile Devices and Small screen Tablets */
+
+@media all and (min-width: 481px) and (max-width: 733px) {
+
+  /* =============== START OF FULL SITE STYLES =============== */
+  body {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  header, nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  section {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .intro, .search-container, .filter-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* ================ END OF FULL SITE STYLES ================ */
+
+  /* =============== START OF NAVBAR SECTION =============== */
+
+  nav {
+    margin: 0;
+    flex-direction: row;
+    order: 3;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  #accommodations-nav {
+    flex-grow: 1;
+    text-align: center;
+    padding: 1.8em 0 1em 1.155em;
+  }
+
+  #activities-nav {
+    flex-grow: 2;
+    text-align: center;
+    padding: 1.8em 1.155em 1em 0;
+  }
+
+  .nav-link {
+    border-bottom: #F2F2F2;
+    border-style: none none solid none;
+    border-width: 0.18em;
+    color: black;
+  }
+
+  .nav-link:hover {
+    border-bottom: #0065FC;
+    border-style: none none solid none;
+    border-width: 0.18em;
+    padding: 2.6em;
+    color: #0065FC;
+  }
+
+  .logo {
+    order: 1;
+    margin-left: 7.5%;
+    margin-right: 5%;
+  }
+
+  #sign-up {
+    order: 2;
+    font-size: 1em;
+    padding: 1em;
+    text-align: right;
+    margin-right: 7.5%;
+  }
+  /* ================ END OF NAVBAR SECTION ================ */
+
+  /* =============== START OF INTRODUCTION, SEARCH, FILTERS AND INFO SECTION =============== */
+
+  /* Introduction */
+  #sub-intro {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  color: grey;
+  font-size: 0.8em;
+  }
+
+  /* Search Bar */
+  .search-container {
+    justify-content: center;
+  }
+
+  .search-box {
+    width: 70%;
+    font-size: 1.08em;
+    padding: 0.8em;
+  }
+
+  .marker-icon {
+    padding: 1em 0.8em;
+    width: 1.8em;
+  }
+
+  .search-button {
+    border-radius: 0.8em;
+    color: transparent;
+    padding: 0 0 0.2em 1em;
+    width: 2em;
+    text-align: initial;
+  }
+
+  .search-icon {
+    color: white;
+  }
+
+  /* Filters*/
+  .filter-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+  }
+
+  /* Info */
+  .info-container {
+    padding-left: 5%;
+  }
+  /* ================ END OF INTRODUCTION, SEARCH, FILTERS AND INFO SECTION ================ */
+
+  /* =============== START OF ACCOMMODATIONS SECTION =============== */
+
+  .article-one-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* Most popular */
+  .mostpopular {
+    order: 1;
+    border-radius: 0;
+    width: 100%;
+    padding: 0px;
+    height: auto;
+  }
+
+  .chart {
+    margin-left: 0;
+    float: right;
+  }
+
+  .popular-container {
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .popular-hotel {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  /* Accommodations */
+  .accommodations {
+    order: 2;
+    background-color: transparent;
+    border-radius: 0;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+  }
+
+  .section-title {
+    margin: 2em auto;
+    width: 65%;
+  }
+
+  .hotel-container {
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .hotel {
+    margin-bottom: 1.5em;
+    width: 100%;
+  }
+
+  #show-more {
+    padding-left: 17.5%
+  }
+  /* ================ END OF ACCOMMODATIONS SECTION ================ */
+
+  /* =============== START OF ACTIVITIES SECTION =============== */
+
+  .activities-container {
+    flex-direction: column;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .column-container-one, .column-container-two {
+    width: 100%;
+  }
+
+  #Old-Port, #Pomegues-Fort, #Friolus-Island,
+  #Calanques-National-Park, #Notre-Dame-de-la-Garde,
+  #Longchamp-Park {
+    margin-bottom: 1.5em;
+  }
+
+  #Old-Port, #Calanques-National-Park {
+    width: 100%;
+    height: 11em;
+    border-radius: 1em;
+  }
+
+  .oldport-images, .pomegues-images, .calanques-images,
+  .notredame-images, .friolus-images, .longchamp-images {
+    width: 100%;
+    height: 8em;
+  }
+  /* ================ END OF ACTIVITIES SECTION ================ */
+
+  /* =============== START OF FOOTER SECTION =============== */
+
+  footer {
+    height: auto;
+    width: 100%;
+    margin: 1em 0 0 0;
+  }
+
+  .footer-container {
+    width: 70%;
+    padding-left: 17.5%;
+  }
+
+  .p-footer {
+    margin-bottom: -0.5em;
+  }
+
+  .about, .our-accommodations, .assistance {
+    margin-bottom: 1em;
+    margin-right: 0.8em;
+  }
+}
+/* ================ END OF FOOTER SECTION ================ */
+
+/* Tablets and Small Screen Laptops */
+@media all and (min-width: 734px) and (max-width: 1329px) {
+
+  /* =============== START OF FULL SITE STYLES =============== */
+  body {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  header, nav {
+    margin: 0 auto;
+    padding-left: 5%;
+  }
+
+  section {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .intro, .search-container, .filter-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* ================ END OF FULL SITE STYLES ================ */
+
+  /* =============== START OF INTRODUCTION, SEARCH, FILTERS AND INFO SECTION =============== */
+
+  /* Filters*/
+  .filter-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+  }
+
+  /* Info */
+  .info-container {
+    padding-left: 5%;
+  }
+  /* ================ END OF INTRODUCTION, SEARCH, FILTERS AND INFO SECTION ================ */
+
+  /* =============== START OF ACCOMMODATIONS SECTION =============== */
+
+  /* Most popular */
+  .mostpopular {
+    order: 1;
+    height: auto;
+    width: 96%;
+    padding: 0;
+    margin: 0 2%;
+  }
+
+  .chart {
+    margin-left: 0;
+    float: right;
+  }
+
+  .popular-container {
+    width: 90%;
+    flex-direction: row;
+    height: 17em;
+    margin: 0 auto;
+  }
+
+  .popular-hotel {
+    width: 30%;
+    height: 85%;
+    flex-direction: column;
+  }
+
+  .popular-images {
+    width: 96%;
+    height: 7em;
+    object-position: 50% 60%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 0;
+  }
+
+  /* Accommodations */
+  .accommodations {
+    order: 2;
+    height: auto;
+    width: 96%;
+    padding: 0;
+    margin: 1em auto;
+  }
+
+  .section-title {
+    margin: 1em auto;
+    width: 90%;
+  }
+
+  .hotel-container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #show-more {
+    padding-left: 5%
+  }
+  /* ================ END OF ACCOMMODATIONS SECTION ================ */
+
+  /* =============== START OF ACTIVITIES SECTION =============== */
+
+  .activities-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .column-container-one {
+    flex-direction: row;
+    width: 100%;
+    order: 3;
+  }
+
+  .column-container-two {
+    flex-direction: row;
+    width: 100%;
+    order: 4;
+  }
+
+  #Old-Port {
+    order: 1;
+  }
+
+  #Calanques-National-Park {
+    order: 2;
+  }
+
+  #Old-Port, #Pomegues-Fort, #Friolus-Island,
+  #Calanques-National-Park, #Notre-Dame-de-la-Garde,
+  #Longchamp-Park {
+    width: 45%;
+    height: 11em;
+    border-radius: 1em;
+    margin-bottom: 1.5em;
+  }
+
+  .oldport-images, .pomegues-images, .calanques-images,
+  .notredame-images, .friolus-images, .longchamp-images {
+    width: 100%;
+    height: 8em;
+  }
+  /* ================ END OF ACTIVITIES SECTION ================ */
+
+  /* =============== START OF FOOTER SECTION =============== */
+
+  footer {
+    height: auto;
+    width: 100%;
+    margin: 1em 0 0 0;
+  }
+
+  .footer-container {
+    width: 70%;
+    padding-left: 5%;
+  }
+
+  .p-footer {
+    margin-bottom: -0.5em;
+  }
+
+  .about, .our-accommodations, .assistance {
+    margin: 0 0 32px 25px;
+  }
+  /* ================ END OF FOOTER SECTION ================ */
+
+}
+/* ========================== END OF MEDIA QUERIES SECTION ========================== */
