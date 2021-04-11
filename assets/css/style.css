@@ -1083,7 +1083,6 @@ footer {
   .filter-container {
     flex-direction: row;
     align-items: flex-start;
-    width: 90%;
   }
 
   .filter {
